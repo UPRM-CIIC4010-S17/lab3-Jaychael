@@ -6,6 +6,8 @@ public class Lab3Exercises {
 		jaychael.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		jaychael.setLocation(200, 200);
 		jaychael.setSize(200, 200);
+		 MyPanelClass myPanel = new MyPanelClass();
+         jaychael.getContentPane().add(myPanel);
 		jaychael.setVisible(true);
 	}
 }
